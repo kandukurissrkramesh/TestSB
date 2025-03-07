@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 
-@RequestMapping("/")
+
 public class HomeController {
 
-	@GetMapping("/home")
+	@GetMapping("/")
 	public String hello() {
 		return new String("Hello world!");
 	}
